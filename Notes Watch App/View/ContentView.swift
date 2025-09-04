@@ -67,10 +67,20 @@ struct ContentView: View {
                     TextField("Add New Notes", text: $text)
                     
                     Button {
+                        // 1. Only run the button when the text field is not empty
                         guard text.isEmpty == false else { return }
+                        
+                        // 2. Create a new note item and initialize with text value
                         let note = Note(id: UUID(), text: text)
+                        
+                        // 3. Add the new note to the array
                         notes.append(note)
+                        
+                        // 4. Make the text field empty
                         text = ""
+                        
+                        // 5. Save the notes (function)
+
                         save()
                     } label: {
                         Image(systemName: "plus.circle")
@@ -86,14 +96,16 @@ struct ContentView: View {
                 // Notes list / empty state
                 if notes.count >= 1 {
                     List {
-                        ForEach(notes, id: \.id) { note in
-                            HStack {
-                                Capsule()
-                                    .frame(width: 4)
-                                    .foregroundColor(.accentColor)
-                                Text(note.text)
-                                    .lineLimit(1)
-                                    .padding(.leading, 5)
+                        ForEach(Array(notes.enumerated()), id: \.element.id) { index, note in
+                            NavigationLink(destination: DetailView(note: note, count: notes.count, index: index)) {
+                                HStack {
+                                    Capsule()
+                                        .frame(width: 4)
+                                        .foregroundColor(.accentColor)
+                                    Text(note.text)
+                                        .lineLimit(1)
+                                        .padding(.leading, 5)
+                                }
                             }
                         }
                         .onDelete(perform: delete)
