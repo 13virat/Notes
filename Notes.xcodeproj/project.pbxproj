@@ -67,6 +67,12 @@
 		04CBD6B82E6B6240007C7DCE /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = demo.gif; path = ../../../../../Downloads/demo.gif; sourceTree = "<group>"; };
 		04CBD6C22E6B67D7007C7DCE /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notes.png; path = ../../../../../.Trash/notes.png; sourceTree = "<group>"; };
 		04CBD6C32E6B67D7007C7DCE /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail.png; path = ../../../../../.Trash/detail.png; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		04CBD6C72E6B68E4007C7DCE /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notes.png; sourceTree = "<group>"; };
+04CBD6C82E6B68F6007C7DCE /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
+
+>>>>>>> deb8521 (feat: added new changes)
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,7 @@
 		04CBD6AD2E6B611B007C7DCE /* screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				04CBD6C62E6B68D7007C7DCE /* ss */,
 				04CBD6AE2E6B61D3007C7DCE /* add-note.png */,
 				04CBD6C32E6B67D7007C7DCE /* detail.png */,
 				04CBD6C22E6B67D7007C7DCE /* notes.png */,
@@ -157,6 +164,15 @@
 				04CBD6B22E6B61D3007C7DCE /* settings.png */,
 			);
 			path = screenshots;
+			sourceTree = "<group>";
+		};
+		04CBD6C62E6B68D7007C7DCE /* ss */ = {
+			isa = PBXGroup;
+			children = (
+				04CBD6C72E6B68E4007C7DCE /* notes.png */,
+				04CBD6C82E6B68F6007C7DCE /* detail.png */,
+			);
+			path = ss;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
