@@ -18,13 +18,9 @@
 		04CBD6AA2E6B3E4B007C7DCE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBD6A92E6B3E4B007C7DCE /* HeaderView.swift */; };
 		04CBD6AC2E6B44E3007C7DCE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBD6AB2E6B44E3007C7DCE /* SettingsView.swift */; };
 		04CBD6B32E6B61D3007C7DCE /* add-note.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CBD6AE2E6B61D3007C7DCE /* add-note.png */; };
-		04CBD6B42E6B61D3007C7DCE /* notes-list.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CBD6AF2E6B61D3007C7DCE /* notes-list.png */; };
-		04CBD6B52E6B61D3007C7DCE /* detail-view.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CBD6B02E6B61D3007C7DCE /* detail-view.png */; };
 		04CBD6B62E6B61D3007C7DCE /* credits.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CBD6B12E6B61D3007C7DCE /* credits.png */; };
 		04CBD6B72E6B61D3007C7DCE /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CBD6B22E6B61D3007C7DCE /* settings.png */; };
 		04CBD6B92E6B6240007C7DCE /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04CBD6B82E6B6240007C7DCE /* demo.gif */; };
-		04CBD6C02E6B65D8007C7DCE /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CBD6BE2E6B65D8007C7DCE /* detail.png */; };
-		04CBD6C12E6B65D8007C7DCE /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CBD6BF2E6B65D8007C7DCE /* notes.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,13 +60,9 @@
 		04CBD6A92E6B3E4B007C7DCE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		04CBD6AB2E6B44E3007C7DCE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		04CBD6AE2E6B61D3007C7DCE /* add-note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-note.png"; sourceTree = "<group>"; };
-		04CBD6AF2E6B61D3007C7DCE /* notes-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notes-list.png"; path = "../../../../Screenshot/notes-list.png"; sourceTree = "<group>"; };
-		04CBD6B02E6B61D3007C7DCE /* detail-view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "detail-view.png"; path = "../../../../Screenshot/detail-view.png"; sourceTree = "<group>"; };
 		04CBD6B12E6B61D3007C7DCE /* credits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credits.png; sourceTree = "<group>"; };
 		04CBD6B22E6B61D3007C7DCE /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		04CBD6B82E6B6240007C7DCE /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = demo.gif; path = ../../../../../Downloads/demo.gif; sourceTree = "<group>"; };
-		04CBD6BE2E6B65D8007C7DCE /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail.png; path = ../../../../../.Trash/detail.png; sourceTree = "<group>"; };
-		04CBD6BF2E6B65D8007C7DCE /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notes.png; path = ../../../../../.Trash/notes.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,12 +145,8 @@
 		04CBD6AD2E6B611B007C7DCE /* screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				04CBD6AF2E6B61D3007C7DCE /* notes-list.png */,
 				04CBD6AE2E6B61D3007C7DCE /* add-note.png */,
-				04CBD6B02E6B61D3007C7DCE /* detail-view.png */,
 				04CBD6B82E6B6240007C7DCE /* demo.gif */,
-				04CBD6BE2E6B65D8007C7DCE /* detail.png */,
-				04CBD6BF2E6B65D8007C7DCE /* notes.png */,
 				04CBD6B12E6B61D3007C7DCE /* credits.png */,
 				04CBD6B22E6B61D3007C7DCE /* settings.png */,
 			);
@@ -244,12 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CBD6B52E6B61D3007C7DCE /* detail-view.png in Resources */,
 				04CBD6B92E6B6240007C7DCE /* demo.gif in Resources */,
-				04CBD6B42E6B61D3007C7DCE /* notes-list.png in Resources */,
 				04CBD6B62E6B61D3007C7DCE /* credits.png in Resources */,
-				04CBD6C02E6B65D8007C7DCE /* detail.png in Resources */,
-				04CBD6C12E6B65D8007C7DCE /* notes.png in Resources */,
 				04CBD6B32E6B61D3007C7DCE /* add-note.png in Resources */,
 				04CBD6B72E6B61D3007C7DCE /* settings.png in Resources */,
 			);
