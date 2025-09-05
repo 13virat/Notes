@@ -110,6 +110,7 @@
 			children = (
 				04CBD6AD2E6B611B007C7DCE /* screenshots */,
 				04A743C22E6877330018BD69 /* Notes Watch App */,
+				04CBD6C62E6B68D7007C7DCE /* ss */,
 				04A743B92E6877330018BD69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,7 +156,6 @@
 		04CBD6AD2E6B611B007C7DCE /* screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				04CBD6C62E6B68D7007C7DCE /* ss */,
 				04CBD6AE2E6B61D3007C7DCE /* add-note.png */,
 				04CBD6C32E6B67D7007C7DCE /* detail.png */,
 				04CBD6C22E6B67D7007C7DCE /* notes.png */,
